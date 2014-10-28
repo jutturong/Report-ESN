@@ -51,7 +51,7 @@ if( !empty($b)  && !empty($e)   )
 ##--หัวตาราง
 $pdf->setXY($x_absolute , $y_absolute +  ($r*3.5)  );
 $pdf->SetFont('angsana','',16);
-$pdf->MultiCell( 0  , 0 , iconv( 'UTF-8','cp874' , 'ตารางที่ 1 ข้อมูล Demographic ของผู้ป่วยที่เข้ารับบริการ' ));
+$pdf->MultiCell( 0  , 0 , iconv( 'UTF-8','cp874' , 'ตารางที่ 1 ข้อมูล Demo ographic ของผู้ป่วยที่เข้ารับบริการ' ));
 $pdf->setXY($x_absolute , $y_absolute +  ($r*4)  );
 $pdf->SetFont('angsana','B',14);
 $pdf->SetFillColor(200, 200, 200);
@@ -221,7 +221,7 @@ if( !empty($b)  && !empty($e)   )
 
 $pdf->setXY($x_absolute , $y_absolute +  ($r*3.5)  );
 $pdf->SetFont('angsana','',16);
-$pdf->MultiCell( 0  , 0 , iconv( 'UTF-8','cp874' , 'ตารางที่ 1 ข้อมูล Demographic ของผู้ป่วยที่เข้ารับบริการ' ));
+$pdf->MultiCell( 0  , 0 , iconv( 'UTF-8','cp874' , 'ตารางที่ 1 ข้อมูล Demo ographic ของผู้ป่วยที่เข้ารับบริการ' ));
 $pdf->setXY($x_absolute , $y_absolute +  ($r*4)  );
 $pdf->SetFont('angsana','B',14);
 $pdf->SetFillColor(200, 200, 200);
